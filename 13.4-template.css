@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+.window {
+	margin: 0 auto;
+	width: 970px;
+	height: 750px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	font-family: 'Oswald', sans-serif;
+}
+.container1 {
+	width: 100%;
+	height: 200px;
+	display: flex;
+	gap: 15px;
+}
+.container2 {
+	width: 100%;
+	height: 200px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+.box {
+	width: 450px;
+	height: 200px;
+	color: floralwhite;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	justify-content: flex-end;
+	padding: 8px;
+}
+.box1 {
+	background-image: url(img/pic1.jpg);
+	background-size: cover;
+}
+.box2 {
+	background-image:  url(img/pic2.jpg);
+	background-size: cover;
+}
+.frame {
+	width: 300px;
+	height: 210px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.frame img {
+	width: 100%;
+	height: 130px;
+	box-shadow: 4px -4px 3px 0px limegreen;
+}
+.orange {
+	background-color: orange;
+	padding: 1px 5px;
+	border-radius: 4px;
+}
+.purple {
+	background-color: purple;
+	padding: 1px 5px;
+	border-radius: 4px;
+}
+.green {
+	background-color: limegreen;
+	padding: 1px 5px;
+	border-radius: 4px;
+}
